@@ -1,0 +1,16 @@
+// #########################################################
+// COPY BOOTSTRAP VARIABLES YOU NEED TO OVERIDE INTO THIS FILE            
+// #########################################################
+
+
+// TO OVERIDE THE PRIMARY & SECONDARY COLORS 
+$new-primary-color: rgb(113, 204, 53); //PUT ANY COLOR AND SEE THE DIFFERENCE
+$new-secondary-color: rgb(49, 90, 21); //PUT ANY COLOR AND SEE THE DIFFERENCE
+
+$primary: $new-primary-color;
+$secondary: $new-secondary-color;
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss"; //THIS IS THE MAIN BOOTSTRAP SASS FILE
+
+
+// NOTE: THIS "_custom.scss" FILE IS PARTIAL FILE THAT STATS WITH "_". THAT MEANS IT WILL NOT GENERATE CSS FILE IN THE ASSETS FOLDER

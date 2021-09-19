@@ -1,7 +1,4 @@
-// USE "npm run compile:sass" to compile sass 
+// USE "npm run compile:sass" TO COMPILE SASS
 
-$primary: #ff0;
-
-.test-1 {
-    color: $primary;
-}
+@use "custom" as *;
+// AFTER CUSTOMIZATION OF BOOTSTRAP IN THE CUSTOM FILE WE USED IT HERE TO GENERATE CSS
