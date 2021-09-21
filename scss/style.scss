@@ -1,4 +1,25 @@
 // USE "npm run compile:sass" TO COMPILE SASS
 
-@use "custom" as *;
+@use "custom";
+
+
+// COMPONENTS 
+@use "components/buttons";
+@use "components/animations";
+@use "components/mixins";
+@use "components/typography";
+
+// SECTIONS 
+
+@use "sections/navbar";
+@use "sections/intro-section";
+@use "sections/companies";
+@use "sections/testimonials";
+@use "sections/services";
+@use "sections/portfolio";
+@use "sections/get-started";
+@use "sections/faq";
+@use "sections/footer";
+
+
 // AFTER CUSTOMIZATION OF BOOTSTRAP IN THE CUSTOM FILE WE USED IT HERE TO GENERATE CSS
