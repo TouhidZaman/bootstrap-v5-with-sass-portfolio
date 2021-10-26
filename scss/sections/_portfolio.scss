@@ -30,6 +30,7 @@
         visibility: hidden;
         .caption {
             color: white;
+            text-align: center;
             @include absoluteCenter;
 
             h4 {
